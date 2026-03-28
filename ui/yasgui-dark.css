@@ -1,0 +1,115 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+/* Main container */
+#yasgui {
+    background: #151516;
+}
+
+/* Tabs */
+.yasgui .tabsList {
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.yasgui .tab {
+    background: #2a2a2a;
+    color: #ccc;
+}
+
+.yasgui .autocomplete {
+    background: #71767b;
+    color: #ccc;
+    border: #5e606b;
+}
+
+.yasr .dataTables_wrapper {
+    font-size: .9em;
+    min-width: 100%;
+    background: rgb(35, 36, 55);
+}
+
+th.sorting:hover {
+    background : rgb(42, 41, 74) !important;
+}
+
+.dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_paginate, .dataTables_wrapper .dataTables_processing {
+    color: #d3c8c8;
+}
+
+.yasr .dataTables_wrapper .grip-padding>tbody>tr>td, .yasr .dataTables_wrapper .grip-padding>tbody>tr>th {
+    background: #27272e;
+}
+
+.yasr .yasr_response_chip {
+    color: #cdcccc;
+    background: #4e4d61;
+}
+
+.yasr .tableControls .tableFilter {
+    background: #71767b;
+    color: #ccc;
+}
+
+.yasgui .tabsList .tab a {
+    color: #c4bdbd !important;
+}
+
+.yasr .tableControls .tableSizer {
+    background: #71767b;
+    color: #ccc;
+}
+
+.yasgui .tab.active {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+/* Buttons */
+.yasgui button {
+    background: #2a2a2a;
+    color: #ddd;
+    border: 1px solid #444;
+}
+
+.yasgui button:hover {
+    background: #3a3a3a;
+}
+
+/* Query editor wrapper */
+.yasqe {
+    background: #1e1e1e !important;
+}
+
+/* Results container */
+.yasr {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+/* Table results */
+.yasr_table {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+.yasr_table th {
+    background: #2a2a2a;
+    border-bottom: 1px solid #444;
+}
+
+.yasr_table td {
+    border-bottom: 1px solid #333;
+}
+
+/* Links */
+.yasr a {
+    color: #82aaff;
+}
+
+/* Loader / misc */
+.yasr .loader {
+    border-color: #444;
+}
